@@ -20,6 +20,13 @@ let rec print_list_of_int = function
   | [] -> ()
   | (i, j) :: is -> (print_endline ((string_of_int i) ^ " , " ^ (string_of_int j)); print_list_of_int_int is)
 
+let rec print_list_of_str_str = function
+  | [] -> ()
+  | (s1, s2) :: ss -> (
+    print_endline ("( " ^ s1 ^ " , " ^ s2 ^ " )");
+    print_list_of_str_str ss
+  )
+
 let rec print_list_str_int = function
   | [] -> ()
   | (s, i) :: ss -> (
