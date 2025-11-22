@@ -1,0 +1,3 @@
+(library
+ (libraries utils str solvers)
+ (name solvers2025))

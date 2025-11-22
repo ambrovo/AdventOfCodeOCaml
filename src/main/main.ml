@@ -2,6 +2,11 @@ open Solvers.Signature
 
 let choose_solver year day : (module Solver) =
   match year with
+  | 2025 -> (
+      let open Solvers2025 in
+      match day with
+      | 0 -> (module Day00.Solver)
+      | _ -> failwith "Ni še rešeno")
   | 2024 -> (
       let open Solvers2024 in
       match day with

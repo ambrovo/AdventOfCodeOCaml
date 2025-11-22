@@ -1,7 +1,7 @@
 # Advent of Code OCaml Solutions
 
-This repository contains solutions for [Advent of Code](https://adventofcode.com/) puzzles implemented in OCaml.
-Author: Nejc Zajc
+This repository contains solutions for [Advent of Code](https://adventofcode.com/) puzzles implemented in OCaml.\
+Author: Nejc Zajc\
 Year: 2025
 
 
@@ -12,8 +12,9 @@ To run these solutions, you'll need:
 - Dune build system
 - Make
 
-Ocaml packages used 
+Ocaml packages used (in specific solutions, fresh project doesn't need these)
 - digestif `opam install digestif`
+- yojson `opam install yojson`
 
 ## Project Structure
 
@@ -22,9 +23,11 @@ Ocaml packages used
 ├── data/              # Input data files
 │   ├── 2015/          # Input files for 2015 puzzles
 │   └── 2024/          # Input files for 2024 puzzles
+│   └── 2025/          # Input files for 2025 puzzles
 ├── out/               # Solutions of the problems
 │   ├── 2015/          # Output files for 2015 puzzles
 │   └── 2024/          # Output files for 2024 puzzles
+│   └── 2025/          # Output files for 2025 puzzles
 ├── src/               
 │   ├── main/          # Main application entry point
 │   ├── solvers/       # Puzzle solutions by year
