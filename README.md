@@ -36,6 +36,12 @@ Ocaml packages used (in specific solutions, fresh project doesn't need these)
 
 ## How to Run
 
+To build the project (after any code changes), run the following command:
+
+```bash
+dune build
+```
+
 To run a specific puzzle solution, use the following command:
 
 ```bash
