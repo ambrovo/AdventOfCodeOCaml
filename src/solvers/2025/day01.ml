@@ -6,5 +6,5 @@ module Solver : Solver = struct
     string_of_int (int_list lines |> sum)
   
   let part2 _ =
-    "string_of_int (int_list lines |> sum)"
+    "42"
 end

@@ -1,7 +1,7 @@
 (executable
  (name main)
   (public_name adventofcodeocaml)
- (libraries utils solvers solvers2025 solvers2024 solvers2015)
+ (libraries utils solvers solvers2025 solvers2024)
  (promote
   (until-clean)
   (into ../..)))

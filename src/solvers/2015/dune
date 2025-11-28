@@ -1,3 +1,0 @@
-(library
- (libraries digestif yojson utils str solvers)
- (name solvers2015))

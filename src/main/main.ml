@@ -6,42 +6,14 @@ let choose_solver year day : (module Solver) =
       let open Solvers2025 in
       match day with
       | 0 -> (module Day00.Solver)
-      | _ -> failwith "Ni še rešeno")
+      | 1 -> (module Day01.Solver)
+      | _ -> failwith "Ni se rešeno")
   | 2024 -> (
       let open Solvers2024 in
       match day with
       | 0 -> (module Day00.Solver)
-      | _ -> failwith "Ni še rešeno")
-  | 2015 -> (
-      let open Solvers2015 in
-      match day with
-      | 0 -> (module Day00.Solver)
-      | 1 -> (module Day01.Solver)
-      | 2 -> (module Day02.Solver)
-      | 3 -> (module Day03.Solver)
-      | 4 -> (module Day04.Solver)
-      | 5 -> (module Day05.Solver)
-      | 6 -> (module Day06.Solver)
-      | 7 -> (module Day07.Solver)
-      | 8 -> (module Day08.Solver)
-      | 9 -> (module Day09.Solver)
-      | 10 -> (module Day10.Solver)
-      | 11 -> (module Day11.Solver)
-      | 12 -> (module Day12.Solver)
-      | 13 -> (module Day13.Solver)
-      | 14 -> (module Day14.Solver)
-      | 15 -> (module Day15.Solver)
-      | 16 -> (module Day16.Solver)
-      | 17 -> (module Day17.Solver)
-      | 18 -> (module Day18.Solver)
-      | 19 -> (module Day19.Solver)
-      | 20 -> (module Day20.Solver)
-      | 21 -> (module Day21.Solver)
-      | 22 -> (module Day22.Solver)
-      | 23 -> (module Day23.Solver)
-      | 24 -> (module Day24.Solver)
-      | 25 -> (module Day25.Solver)
-      | _ -> failwith "Ni še rešeno")
+      | _ -> failwith "Ni se rešeno")
+ 
   | _ -> failwith "Neveljavno leto"
 
 let run_solver year day part =
