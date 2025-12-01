@@ -1,9 +1,8 @@
 # Advent of Code OCaml Solutions
 
 This repository contains solutions for [Advent of Code](https://adventofcode.com/) puzzles implemented in OCaml.\
-Author: Nejc Zajc\
-Year: 2025
-
+fork from: https://github.com/Matematik411/adventofcodeocaml
+Dodajam svoje rešitve, zbrisal sem 2015, ker niso moje. 
 
 ## Prerequisites
 
