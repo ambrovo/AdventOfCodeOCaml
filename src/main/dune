@@ -1,7 +1,8 @@
 (executable
  (name main)
-  (public_name adventofcodeocaml)
+ (public_name adventofcodeocaml)
  (libraries utils solvers solvers2025 solvers2024)
+ (flags (:standard -g))          ;; ← enable debugging info
  (promote
   (until-clean)
   (into ../..)))

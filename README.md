@@ -20,11 +20,9 @@ Ocaml packages used (in specific solutions, fresh project doesn't need these)
 ```
 .
 ├── data/              # Input data files
-│   ├── 2015/          # Input files for 2015 puzzles
 │   └── 2024/          # Input files for 2024 puzzles
 │   └── 2025/          # Input files for 2025 puzzles
 ├── out/               # Solutions of the problems
-│   ├── 2015/          # Output files for 2015 puzzles
 │   └── 2024/          # Output files for 2024 puzzles
 │   └── 2025/          # Output files for 2025 puzzles
 ├── src/               
