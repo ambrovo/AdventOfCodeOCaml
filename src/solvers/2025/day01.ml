@@ -1,5 +1,5 @@
 open Solvers.Signature
-open Utils.List_utils
+
 
 module Solver : Solver = struct
   let part1 lines =

@@ -1,5 +1,5 @@
 open Solvers.Signature
-open Utils.List_utils
+
 
 module Solver : Solver = struct
   let part1 lines =
@@ -80,9 +80,7 @@ module Solver : Solver = struct
         )
           else 0
       )
-
         in
-        
       let rec p deli zacetek = match deli with
       | [] -> 0 
       | x :: xs -> generiraj_in_preveri zacetek x  + p xs zacetek in
