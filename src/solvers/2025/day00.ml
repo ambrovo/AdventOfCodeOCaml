@@ -2,7 +2,7 @@ open Solvers.Signature
 
 
 module Solver : Solver = struct
-  let part1 lines =
+  let part1 _ =
     "3"
   
   let part2 _ =
